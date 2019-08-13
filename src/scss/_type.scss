@@ -1,0 +1,92 @@
+
+.page__type {
+    &__top {
+        padding-top: 72px;
+        padding-bottom: 64px;
+    }
+    &__container {
+        width: 95%;
+        max-width: 864px;
+        padding: 0 16px;
+        & table {
+            border-top: 1px solid #DFE2E5;
+            width: 100%;
+            max-width: 863px;
+            & tr {
+                border-bottom:  1px solid #DFE2E5;
+            }
+            & td {
+                display: table-cell;
+                padding: 15px 0;
+                padding-right: 16px;
+                font-size: 14px;
+                line-height: 24px;
+                color: $base;
+            }
+            & td:first-child {
+                width: 30px;
+            }
+            & td:last-child, & td:nth-last-child(2) {
+                text-align: right;
+            }
+            & tr:first-child {
+                font-weight: bold;
+            }
+        }
+    }
+}
+.content__type {
+    &__head {
+        max-width: 840px;
+        width: 95%;
+        margin-bottom: 96px;
+        & img {
+            width: 100%;
+        }
+    }
+    &__headcaption {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        color: $greyDark;
+        width: 100%;
+        margin-top: 24px;
+        color: $base;
+    }
+    &__h1 {
+        font-size: 36px;
+        line-height: 48px;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: 48px;
+        color: $base;
+    }
+    &__h2 {
+        font-size: 28px;
+        line-height: 32px;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: 16px;
+        color: $base;
+    }
+    &__h3 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: 8px;
+        color: $base;
+    }
+    &__h4 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: 8px;
+        color: $base;
+    }
+    &__p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 32px;
+        color: $base;
+    }
+}

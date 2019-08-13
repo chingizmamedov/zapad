@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal__blocker"></div>
+    <div class="callback__form">
+        <form action="#">
+            <label class="callback__form__label d-flex flex-column">
+                <span class="callback__form__span">Ваше имя</span>
+                <input class="callback__form__inp" type="text">
+            </label>
+            <label class="callback__form__label d-flex flex-column">
+                <span class="callback__form__span">Ваш телефон</span>
+                <input class="callback__form__inp" type="text" id="phone">
+            </label>
+            <label class="obrabotka d-flex">
+                <label class="checkbox ">
+                    <input class="checkbox-true" type="checkbox">
+                    <div class="checkbox-mask"></div>
+                </label>
+                <span>Согласен на обработку персональных данных</span>
+            </label>
+            <button class="btn-secondary callback__form__btn">Отправить</button>
+        </form>
+    </div>
+    <main class="main">
+        <header class="header">
+            <div class="header__fixed d-flex flex-column">
+                <div class="logo">
+                    <img src="assets/logo.svg" alt="">
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list__title">Управляющая компания</li>
+                        <li class="nav__list__item nav__list__item-has">Раскрытие информации
+                            <ul class="nav__list_secondary">
+                                <a href="#" class="nav__list__item">Новости</a>
+                                <a href="#" class="nav__list__item">Нарушения</a>
+                                <a href="#" class="nav__list__item">Стоимость и порядок оказания услуг</a>
+                                <a href="#" class="nav__list__item">Тарифы на комунальные услуги РСО</a>
+                                <a href="#" class="nav__list__item">О компании</a>
+                                <a href="#" class="nav__list__item">Документы</a>
+                            </ul>
+                        </li>
+                        <li class="nav__list__item nav__list__item-has">Дома в управлении
+                            <ul class="nav__list_secondary">
+                                <a href="#" class="nav__list__item">Новости</a>
+                                <a href="#" class="nav__list__item">Нарушения</a>
+                                <a href="#" class="nav__list__item">Стоимость и порядок оказания услуг</a>
+                                <a href="#" class="nav__list__item">Тарифы на комунальные услуги РСО</a>
+                                <a href="#" class="nav__list__item">О компании</a>
+                                <a href="#" class="nav__list__item">Документы</a>
+                            </ul>
+                        </li>
+                        <a href="#" class="nav__list__item">Новости</a>
+                    </ul>
+                    <ul class="nav__list">
+                        <li class="nav__list__title">Для жильцов</li>
+                        <a href="#" class="nav__list__item">Передать показания</a>
+                        <a href="#" class="nav__list__item">Оплатить ЖКУ</a>
+                        <a href="#" class="nav__list__item">Объявления</a>
+                        <a href="#" class="nav__list__item">Аварийная диспетчерская</a>
+                        <a href="#" class="nav__list__item">Личный кабинет</a>
+                    </ul>
+                </nav>
+                <div class="header__callback">
+                    <div class="header__callback__title">Аварийная диспетчерская:</div>
+                    <a class="header__callback__link" href="tel:+79226309999">+7 922 630-99-99</a>
+                    <button class="btn-primary header__callback__btn">Обратный звонок</button>
+                </div>
+            </div>
+        </header>
+        <div class="content d-flex flex-column">
+            <div class="mobile__header_wrap d-flex">
+                <div class="mobile__header d-flex align-items-center">
+                    <div class="logo mobile__header__logo">
+                        <img src="assets/logo.svg" alt="">
+                    </div>
+                    <div class="flex-grower"></div>
+                    <div class="burger-wrap d-flex flex-column align-items-center justify-content-center">
+                        <div class="burger d-flex flex-column">
+                            <div class="burger-item"></div>
+                            <div class="burger-item"></div>
+                            <div class="burger-item"></div>
+                        </div>
+                        <img src="assets/menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <section class="top">
+                <img class="top__bg"  src="assets/background.jpg">
+                <img class="top__logo" src="assets/logo.svg" alt="">
+            </section>
+            <div class="content__nav">
+                <div class="content__nav__container d-flex">
+                    <a class="content__link" href="#">
+                        <div class="content__link__img">
+                            <img src="assets/pass.svg" alt="">
+                        </div>
+                        <div class="content__link__text">
+                            <p>Передать показания</p>
+                        </div>
+                    </a>
+                    <a class="content__link" href="#">
+                        <div class="content__link__img">
+                            <img src="assets/cash.svg" alt="">
+                        </div>
+                        <div class="content__link__text">
+                            <p>Оплатить ЖКУ</p>
+                        </div>
+                    </a>
+                    <a class="content__link" href="#">
+                        <div class="content__link__img">
+                            <img src="assets/ava.svg" alt="">
+                        </div>
+                        <div class="content__link__text">
+                            <p>Личный кабинет</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="content__adv container">
+                <div class="content__adv__header d-flex">
+                    <h2 class="content__adv__title">Объявления</h2>
+                    <button class="btn-secondary content__adv__btn">Все объявления</button>
+                </div>
+                <div class="content__adv__body">
+                    <div class="content__adv__item d-flex">
+                        <div class="content__adv__item__data d-flex flex-column align-items-center justify-content-center">
+                            <span class="time_day">02</span>
+                            <span class="time_month">Марта</span>
+                            <span class="time_year">2019</span>
+                        </div>
+                        <div class="content__adv__item__cont d-flex">
+                            <p>отключение холодного водоснабжения 24.07.19 на ж.д. Казарновского,2;3;4; Пионерский,5а с 9:00 до 18:00 в связи с аварией ООО Водоканал" будет отключена холодная вода.</p>
+                        </div>
+                    </div>
+                    <div class="content__adv__item d-flex">
+                        <div class="content__adv__item__data d-flex flex-column align-items-center justify-content-center">
+                            <span class="time_day">02</span>
+                            <span class="time_month">Марта</span>
+                            <span class="time_year">2019</span>
+                        </div>
+                        <div class="content__adv__item__cont d-flex">
+                            <p>отключение холодного водоснабжения 24.07.19 на ж.д. Казарновского,2;3;4; Пионерский,5а с 9:00 до 18:00 в связи с аварией ООО Водоканал" будет отключена холодная вода.</p>
+                        </div>
+                    </div>
+                    <div class="content__adv__item d-flex">
+                        <div class="content__adv__item__data d-flex flex-column align-items-center justify-content-center">
+                            <span class="time_day">02</span>
+                            <span class="time_month">Марта</span>
+                            <span class="time_year">2019</span>
+                        </div>
+                        <div class="content__adv__item__cont d-flex">
+                            <p>отключение холодного водоснабжения 24.07.19 на ж.д. Казарновского,2;3;4; Пионерский,5а с 9:00 до 18:00 в связи с аварией ООО Водоканал" будет отключена холодная вода.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content__news container">
+                <div class="content__news__header d-flex">
+                    <h2 class="content__news__title">Новости</h2>
+                    <button class="btn-secondary content__news__btn">Все новости</button>
+                </div>
+                <div class="content__news__body d-flex">
+                    <a href="#" class="content__news__item d-flex flex-column">
+                        <div class="content__news__item__imgs">
+                            <img class="content__news__item__imgs__img" src="assets/kosik.jpg" alt="">
+                        </div>
+                        <h2 class="content__news__item__title">74-ая годовщина победы в великой отечественной войне.</h2>
+                        <p class="content__news__item__p">Приглашаем всех желающих на празднование 9 мая в 17.00 во дворе дома по пр-кт. Октябрьский, 58.</p>
+                        <span class="content__news__item__time">30 Апреля 2019</span>
+                    </a>
+                    <a href="#" class="content__news__item d-flex flex-column">
+                        <div class="content__news__item__imgs">
+                            <img class="content__news__item__imgs__img" src="assets/jkx.jpg" alt="">
+                        </div>
+                        <h2 class="content__news__item__title">74-ая годовщина победы в великой отечественной войне.</h2>
+                        <p class="content__news__item__p">Приглашаем всех желающих на празднование 9 мая в 17.00 во дворе дома по пр-кт. Октябрьский, 58.</p>
+                        <span class="content__news__item__time">30 Апреля 2019</span>
+                    </a>
+                    <a href="#" class="content__news__item d-flex flex-column">
+                        <div class="content__news__item__imgs">
+                            <img class="content__news__item__imgs__img" src="assets/atap.jpg" alt="">
+                        </div>
+                        <h2 class="content__news__item__title">74-ая годовщина победы в великой отечественной войне.</h2>
+                        <p class="content__news__item__p">Приглашаем всех желающих на празднование 9 мая в 17.00 во дворе дома по пр-кт. Октябрьский, 58.</p>
+                        <span class="content__news__item__time">30 Апреля 2019</span>
+                    </a>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container d-flex footer__container">
+                    <div class="footer__col">
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ЭЛЕКТРОННАЯ ПОЧТА</span>
+                            <a href="#" class="footer__item__sub">uk-lubgorod@mail.ru</a>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ЮРИДИЧЕСКИЙ АДРЕС</span>
+                            <span class="footer__item__sub">654005, Новокузнецк улица Орджоникидзе, дом 11, офис 305/2</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ФАКТИЧЕСКИЙ АДРЕС</span>
+                            <span class="footer__item__sub">654066, Новокузнецк улица Грдины, дом 27, офис 4</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">Руководитель компании</span>
+                            <span class="footer__item__sub">Генералов Павел Ильич</span>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ОФИС КОМПАНИИ</span>
+                            <span class="footer__item__sub">Месторасположение: 654066, Новокузнецк, улица Грдины, дом 27, офис 4</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">Часы приема</span>
+                            <span class="footer__item__sub">ПН.—ЧТ., с 8.00 до 17.00, ПТ. с 8.00 до 16.00, СБ. и ВС. — «выходной»</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ОТДЕЛ ПО РАБОТЕ С НАСЕЛЕНИЕМ</span>
+                            <a href="tel:83843736260" class="footer__item__sub">телефон: 8 (3843) 73-62-60</a>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ПРОИЗВОДСТВЕННО-ТЕХНИЧЕСКИЙ ОТДЕЛ</span>
+                            <span class="footer__item__sub">телефон, факс: 8 (3843) 70-20-08, 73-60-90</span>
+                        </div>
+                    </div>
+                    <div class="footer__col">
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">АВАРИЙНО-ДИСПЕТЧЕРСКАЯ СЛУЖБА</span>
+                            <span class="footer__item__sub">Месторасположение: 654066, Новокузнецк, улица Грдины, дом 27, офис 4</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">Режим работы: круглосуточный </span>
+                            <!-- <a href="#" class="footer__item__sub">uk-lubgorod@mail.ru</a> -->
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">Часы приема</span>
+                            <span class="footer__item__sub">ПН.—ПТ., с 8.00 до 17.00</span>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">ДИСПЕТЧЕР ДНЕВНЫХ БРИГАД</span>
+                            <a href="tel:83843736090" class="footer__item__sub">телефон: 8 (3843) 73-60-90</a>
+                        </div>
+                        <div class="footer__item d-flex flex-column">
+                            <span class="footer__item__title">КРУГЛОСУТОЧНАЯ АВАРИЙНАЯ СЛУЖБА</span>
+                            <span class="footer__item__sub">телефоны: 8 (3843) 73-62-10, 60-27-04</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container footer__container">
+                    <div class="logo footer__logo">
+                        <img src="assets/logo.svg" alt="">
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        
+            
+    </main>
+    <script src="bundle.js"></script>
+</body>
+</html>

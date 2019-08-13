@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    padding: 72px 0;
+    background-color: $base;
+    color: $white;
+    &__container {
+        width: 95%;
+    }
+    &__item {
+        line-height: 24px;
+        &__title {
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        &__sub {
+            font-size: 14px;
+            color: #fff;
+            opacity: .7;
+            text-decoration: none;
+        }
+    }
+    &__item:not(:last-child) {
+        margin-bottom: 16px;
+    }
+    &__col {
+        width: 32%;
+    }
+    &__col:last-child {
+        text-align: right;
+    }
+    &__col:not(:last-child) {
+        margin-right: 32px;
+    }
+    &__logo {
+        max-width: 148px;
+        height: 80px;
+        background: transparent;
+    }
+}

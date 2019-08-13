@@ -1,0 +1,178 @@
+.main {
+    display: flex;
+}
+.top {
+    display: flex;
+    position: relative;
+    min-height: 320px;
+    max-height: 640px;
+    &__logo {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 218px;
+        height: 120px;
+    }
+    &__bg {
+        width: 100%;
+        height: auto;
+    }
+}
+.content {
+    background-color: #E5E5E5;
+    flex-grow: 1;
+    &__report {
+        padding-top: 32px;
+        min-height: 400px;
+        width: 95%;
+        margin: auto;
+    }
+    &__link {
+        display: flex;
+        text-decoration: none;
+        color: $white;
+        font-size: 14px;
+        width: 291px;
+        &__img {
+            min-width: 96px;
+            width: 96px;
+            height: 96px;
+            background-color: $primary;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 3px;
+            border-bottom-left-radius: 3px;
+        }
+        &__text {
+            background-color: $base;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            text-align: center;
+            padding: 5px;
+        }
+    }
+    &__nav {
+        margin-top: -72px;
+        z-index: 2;
+        &__container {
+            max-width: 937px;
+            width: 95%;
+            margin: auto;
+            justify-content: space-between;
+        }
+    }
+    &__adv {
+        padding-top: 72px;
+        margin-bottom: 72px;
+        color: $base;
+        width: 95%;
+        &__item {
+            margin-bottom: 24px;    
+            &__data {
+                padding: 8px 20px;
+                min-width: 96px;
+                background-color: $greySemi;
+                font-family: 'Fira Sans', sans-serif;
+                border-radius: 3px 0px 0px 3px;
+            }
+            &__cont {
+                align-items: center;
+                background-color: $white;
+                padding: 24px 32px;
+                font-size: 15px;
+                line-height: 24px;
+            }
+        }
+        &__item:last-child {
+            margin-bottom: 0;
+        }
+        &__header {
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        &__title {
+            font-size: 34px;
+            line-height: 48px;
+        }
+        &__btn {
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 24px;
+            text-decoration: none;
+        }
+    }
+    &__news {
+        color: $base;
+        margin-bottom: 128px;
+        width: 95%;
+        &__body {
+            flex-wrap: wrap;
+            align-items: stretch;
+            margin-left: -16px;
+            margin-right: -16px;
+        }
+        &__btn {
+            text-decoration: none;
+        }
+        &__page {
+            padding-top: 80px;
+        }
+        &__title {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 34px;
+            line-height: 48px;
+        }
+        &__header {
+            justify-content: space-between;
+            margin-bottom: 32px;
+        }
+        &__item {
+            width: 32%;
+            margin-bottom: 32px;
+            padding-left: 16px;
+            padding-right: 16px;
+            max-width: 416px;
+            color: $base;
+            text-decoration: none;
+            &__title {
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            &__p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &__time {
+                font-size: 14px;
+                line-height: 24px;
+                color: $greyDark;
+            }
+            &__imgs {
+                width: 100%;
+                margin-bottom: 8px;
+                &__img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.time {
+    &_day {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    &_month, &_year {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+

@@ -1,0 +1,33 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    color: $base;
+    &__title {
+        font-size: 14px;
+        line-height: 24px;
+        color: $base;
+        font-family: 'Fira Sans', sans-serif;
+        margin-bottom: 16px;
+    }
+    &__list {
+        margin-bottom: 32px;
+        background-color: $white;
+    }
+    &__item {
+        text-align: left;
+        background-color: $white;
+        font-size: 15px;
+        line-height: 24px;
+        border-bottom: 1px solid $greySemi;
+        &__name {
+            padding: 12px;
+            padding-left: 24px;
+            font-weight: bold;
+            max-width: 259px;
+        }
+        &__content {
+            padding: 12px;
+            padding-left: 24px;
+        }
+    }
+}

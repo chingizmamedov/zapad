@@ -1,0 +1,28 @@
+.report {
+    &__header {
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 24px;
+    }
+    &__print {
+        margin-right: 24px;
+        font-size: 14px;
+        line-height: 24px;
+        color: $primaryNav;
+        text-decoration: none;
+        cursor: pointer;
+        & img {
+            margin-right: 10px;
+        }
+    }
+    &__download {
+        font-size: 14px;
+        line-height: 24px;
+        color: $primaryNav;
+        text-decoration: none;
+        cursor: pointer;
+        & img {
+            margin-right: 10px;
+        }
+    }
+}
