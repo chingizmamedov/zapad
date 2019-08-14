@@ -12,15 +12,22 @@ $( document ).ready(function() {
           method: "GET",
           url: "/reports/ajax.php?id=6",
           success: function(data) {
-                console.log('maqa')
                 const reportWrap = $('.table')
                 reportWrap.html(data)
-                console.log(data)
             }
         })
         
     }
 
+    $('.hamburger').click(function(){
+        $(this).toggleClass('is-active')
+        $('.mobile-menu').toggleClass('mobile-menu__shown');
+        $('.modal__blocker').show();
+    })
+
+    $('.mobile-menu__item').click(function(){
+        $(this).find('.mobile-menu__secondary').toggle('slow');
+    })
 
     choosItem(getAjaxForDara);
     Dropdown()
@@ -54,6 +61,7 @@ $( document ).ready(function() {
             bottom: '-360px'
         })
         $('.modal__blocker').hide()
+        $('.hamburger').removeClass('is-active')
     })
 
     var element = document.getElementById('phone');

@@ -8,6 +8,38 @@
     <title>Document</title>
 <link href="main.css" rel="stylesheet"></head>
 <body>
+    <div class="mobile-menu">
+        <nav class="mobile-menu__wrap">
+          <ul class="mobile-menu__list">
+                <li class="mobile-menu__title">Управляющая компания</li>
+                <li class="mobile-menu__item mobile-menu__item-has">
+                    <div class="mobile-menu__parent">Раскрытие информации
+                        <div class="mobile-menu__parent__btn"></div>
+                    </div>                    
+                    <ul class="mobile-menu__secondary">
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">Новости</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">Нарушения</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">Стоимость и порядок оказания услуг</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">Тарифы на комунальные услуги РСО</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">О компании</a>
+                        </li>
+                        <li>
+                            <a href="#" class="mobile-menu__item__inn">Документы</a>
+                        </li>
+                    </ul>
+                </li>
+          </ul>  
+        </nav>
+    </div>
     <div class="modal__blocker"></div>
     <div class="callback__form">
         <form action="#">
@@ -84,13 +116,15 @@
                     </div>
                     <div class="flex-grower"></div>
                     <div class="burger-wrap d-flex flex-column align-items-center justify-content-center">
-                        <div class="burger d-flex flex-column">
-                            <div class="burger-item"></div>
-                            <div class="burger-item"></div>
-                            <div class="burger-item"></div>
+                        <div class="hamburger hamburger--spring js-hamburger">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+
                         </div>
                         <img src="assets/menu.svg" alt="">
                     </div>
+                    
                 </div>
             </div>
             <section class="top">
