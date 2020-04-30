@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "imask": "^5.1.9",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "node": "^12.6.0",
     "slick-slider": "^1.8.2",
     "wowjs": "^1.1.3"
